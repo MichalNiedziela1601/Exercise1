@@ -38,6 +38,11 @@ input[type="submit"]{
     margin: 10px;
 }
 
+.radio-control {
+    margin: 0 auto 10px;
+    text-align: center;
+}
+
 
 
 .signin {
@@ -51,5 +56,6 @@ input[type="submit"]{
     text-align: center;
     margin: auto;
     clear: none;
+    width:50%;
 }
 
