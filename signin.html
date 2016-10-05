@@ -2,9 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Sign in</title>
+    <link rel="stylesheet" href="css/signin.css">
 </head>
 <body>
+
+<nav>
+    <button class="signup-button"><a href="signup.html">Sign up</a></button>
+</nav>
+
+<div class="signin-container">
+    <section class="buttton-section">
+        <article>
+            <button>Sign in with Github</button>
+        </article>
+
+        <article>
+            <button>Sign in with Google+</button>
+        </article>
+        <article>
+            <button>Sign in with Facebook</button>
+        </article>
+
+    </section>
+
+    <section class="form-section">
+        <form>
+            <fieldset>
+                <label for="usernameEmail">Username / Email</label>
+                <input type="text" id="usernameEmail">
+
+                <label for="password">Password</label>
+                <input type="password" id="password">
+
+                <input type="submit" value="Signin">
+            </fieldset>
+        </form>
+    </section>
+</div>
 
 </body>
 </html>

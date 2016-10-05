@@ -47,3 +47,9 @@ input[type="submit"]{
     right: 30px;
 }
 
+.center {
+    text-align: center;
+    margin: auto;
+    clear: none;
+}
+

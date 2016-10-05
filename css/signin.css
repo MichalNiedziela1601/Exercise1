@@ -1,0 +1,62 @@
+
+nav {
+    padding-bottom: 30px;
+    margin-bottom: 10px;
+}
+
+fieldset {
+    padding: 1em;
+    font:80%/1 sans-serif;
+}
+label {
+    float:left;
+    width:35%;
+    margin: 3px 0.5em 3px;
+    padding-top:0.2em;
+    text-align:right;
+    font-weight:bold;
+}
+
+input {
+    margin: 3px auto 3px;
+}
+
+input[type="submit"]{
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+article {
+    padding: 5px;
+}
+
+article button {
+    width: 100%;
+
+}
+
+.signup-button {
+    padding: 5px;
+    float: right;
+    position: relative;
+    right: 30px;
+}
+
+.signin-container {
+    display: block;
+    background: #e8e0da;
+    width: 60%;
+    height: 200px;
+    margin: 10px auto;
+    padding: 20px 40px;
+}
+
+.buttton-section {
+    float: left;
+}
+
+.form-section {
+    float: right;
+    width: 40%;
+}
