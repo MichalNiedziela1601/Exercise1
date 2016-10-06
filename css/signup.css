@@ -38,11 +38,14 @@ input[type="submit"]{
     margin: 10px;
 }
 
-.radio-control {
-    margin: 0 auto 10px;
-    text-align: center;
+input[type="radio"]{
+    margin: 0 auto;
+
 }
 
+.radio-control {
+    vertical-align: middle;
+}
 
 
 .signin {
@@ -54,8 +57,9 @@ input[type="submit"]{
 
 .center {
     text-align: center;
-    margin: auto;
-    clear: none;
+    margin: 2px auto;
     width:50%;
+
 }
+
 

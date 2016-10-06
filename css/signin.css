@@ -44,10 +44,10 @@ article button {
 }
 
 .signin-container {
-    display: block;
+    display: table;
     background: #e8e0da;
-    width: 60%;
-    height: 200px;
+    width: 40%;
+    height: 100%;
     margin: 10px auto;
     padding: 20px 40px;
 }
@@ -58,5 +58,5 @@ article button {
 
 .form-section {
     float: right;
-    width: 40%;
+    width: 50%;
 }
