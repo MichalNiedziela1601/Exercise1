@@ -7,11 +7,10 @@ a {
 
 .dashboard-container {
     background: #e8e0da;
-    display: table;
 
     width:40%;
-    padding: 10px 15px;
-    margin: 10px auto;
+    margin-top: 20px;
+
     height:100%;
     border:1px solid;
 }
@@ -23,9 +22,10 @@ a {
 }
 
 .dashboard-profile {
-    float: right;
+
     font-size: 20px;
-    padding-right: 15px;
+    padding-right: 10px;
+    margin-right: 10px;
 }
 
 .dashboard-profile img {
