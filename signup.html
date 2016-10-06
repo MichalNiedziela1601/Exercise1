@@ -3,22 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <title>Signup</title>
+    <link rel="stylesheet" href="css/signup.css">
 </head>
 <body>
 <div>
+    <div>
+        <button class="signin"><a href="signin.html"> Sign in</a></button>
+    </div>
+    <br/>
     <h1>REGISTRATION</h1>
     <form>
+        <fieldset>
+            <div class="form-control">
+                <label for="firstName">First Name</label>
+                <input type="text" required id="firstName">
+            </div>
 
-        <label for="firstName">First Name</label>
-        <input type="text" required id="firstName">
+            <div class="form-control">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" required>
+            </div>
 
-        <label for="lastName">Last Name</label>
-        <input type="text" id="lastName" required>
 
-        <label for="password">Password</label>
-        <input type="password" id="password" required>
+            <div class="form-control">
+                <label for="password">Password</label>
+                <input type="password" id="password" required>
+            </div>
 
-        <label for="repeatPassword">Repeat password</label>
+
+            <div class="form-control">
+                <label for="repeatPassword">Repeat password</label>
+                <input type="password" id="repeatPassword" required>
+            </div>
+
+
+            <div class="form-control">
+                <label for="email">E-mail</label>
+                <input type="email" required id="email">
+            </div>
+
+            <div class="form-control">
+                <label for="datoOfBirth">Date of birth</label>
+                <input type="date" id="datoOfBirth">
+            </div>
+
+            <div class="form-control">
+
+                <input type="radio" name="gender" value="male">Male<br/>
+                <input type="radio" name="gender" value="female">Female
+            </div>
+
+            <input type="submit" value="Sign up">
+        </fieldset>
     </form>
 </div>
 </body>

@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
+
+form {
+    display: block;
+    border: 2px solid #dd7274;
+    background: #b1a9a3;
+    width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+fieldset {
+    padding: 1em;
+    font:80%/1 sans-serif;
+}
+label {
+    float:left;
+    width:35%;
+    margin-right:0.5em;
+    padding-top:0.2em;
+    text-align:right;
+    font-weight:bold;
+}
+
+
+
+input[type="submit"]{
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+.form-control {
+    padding: 10px auto 10px auto;
+    margin: 10px;
+}
+
+
+
+.signin {
+    padding: 5px;
+    float: right;
+    position: relative;
+    right: 30px;
+}
+
