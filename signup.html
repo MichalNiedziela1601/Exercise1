@@ -3,58 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <title>Signup</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/signup.css">
+    <!-- Latest compiled and minified CSS -->
+
 </head>
 <body>
-<div>
+<div class="container">
     <div>
         <button class="signin"><a href="signin.html"> Sign in</a></button>
     </div>
     <br/>
-    <h1>REGISTRATION</h1>
-    <form>
-        <fieldset>
-            <div class="form-control">
-                <label for="firstName">First Name</label>
-                <input type="text" required id="firstName">
-            </div>
 
-            <div class="form-control">
-                <label for="lastName">Last Name</label>
-                <input type="text" id="lastName" required>
-            </div>
+    <header class="page-header "><h1>REGISTRATION</h1></header>
+    <div class="form-registration">
+        <form>
 
-
-            <div class="form-control">
-                <label for="password">Password</label>
-                <input type="password" id="password" required>
-            </div>
-
-
-            <div class="form-control">
-                <label for="repeatPassword">Repeat password</label>
-                <input type="password" id="repeatPassword" required>
-            </div>
+                <div class="form-group row">
+                    <label for="firstName" class="col-xs-2 col-form-label">First Name</label>
+                    <div class="col-xs-6">
+                        <input type="text" required id="firstName" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="lastName" class="col-xs-2 col-form-label">Last Name</label>
+                    <div class="col-xs-6">
+                        <input type="text" id="lastName" required class="form-control">
+                    </div>
+                </div>
 
 
-            <div class="form-control">
-                <label for="email">E-mail</label>
-                <input type="email" required id="email">
-            </div>
+                <div class="form-group row">
+                    <label for="password" class="col-xs-2 col-form-label">Password</label>
+                    <div class="col-xs-6">
+                        <input type="password" id="password" required class="form-control">
+                    </div>
+                </div>
 
-            <div class="form-control">
-                <label for="datoOfBirth">Date of birth</label>
-                <input type="date" id="datoOfBirth">
-            </div>
 
-            <div class="radio-control center">
-                <input  type="radio" id="male" name="gender" value="male">Male<br>
-                <input  type="radio" name="gender" value="female" id="female">Female
-            </div>
+                <div class="form-group row">
+                    <label for="repeatPassword" class="col-xs-2 col-form-label">Repeat password</label>
+                    <div class="col-xs-6">
+                        <input type="password" id="repeatPassword" required class="form-control">
+                    </div>
+                </div>
 
-            <input type="submit" value="Sign up">
-        </fieldset>
-    </form>
+
+                <div class="form-group row">
+                    <label for="email" class="col-xs-2 col-form-label">E-mail</label>
+                    <div class="col-xs-6">
+                        <input type="email" required id="email" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label for="datoOfBirth" class="col-xs-2 col-form-label">Date of birth</label>
+                    <div class="col-xs-6">
+                        <input type="date" id="datoOfBirth" class="form-control">
+                    </div>
+                </div>
+
+                <div class="form-group row">
+                    <label class="col-xs-2 col-form-label">Gender</label>
+                    <div class="col-sm-6">
+                        <div class="radio">
+                            <label> <input type="radio" name="gender" id="male" value="male">Male</label>
+                        </div>
+                        <div class="radio">
+                            <label> <input type="radio" name="gender" id="female" value="female">Female</label>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-6">
+                        <input class="btn btn-success" type="submit" value="Sign up">
+                    </div>
+                </div>
+        </form>
+    </div>
 </div>
 </body>
 </html>
