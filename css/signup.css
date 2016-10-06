@@ -1,6 +1,3 @@
-header {
-    text-align: center;
-}
 
 
 .signin {
@@ -8,15 +5,9 @@ header {
     float: right;
     position: relative;
     right: 30px;
+    margin-top: 10px;
 }
 
-.form-registration {
-
-}
-
-.form-registration form {
-    margin: 0 auto;
-}
 
 
 
