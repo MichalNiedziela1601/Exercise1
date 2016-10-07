@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit profile</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/edit-profile.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <header class="page-header "><h1 class="text-center">Update profile</h1></header>
+    </div>
+    <div class="row">
+        <div class="col-sm-8">
+            <form name="information" id="information">
+                <fieldset>
+                    <header><h2>Basic information</h2></header>
+
+                    <div class="form-group row">
+                        <label for="firstName" class="col-xs-3 col-form-label">First Name</label>
+                        <div class="col-xs-8">
+                            <input type="text" required id="firstName" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-xs-3 col-form-label">Last Name</label>
+                        <div class="col-xs-8">
+                            <input type="text" id="lastName" required class="form-control">
+                        </div>
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="email" class="col-xs-3 col-form-label">E-mail</label>
+                        <div class="col-xs-8">
+                            <input type="email" required id="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="datoOfBirth" class="col-xs-3 col-form-label">Date of birth</label>
+                        <div class="col-xs-8">
+                            <input type="date" id="datoOfBirth" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="form-group row">
+                        <label class="col-xs-3 col-form-label">Gender</label>
+                        <div class="col-xs-8">
+                            <select class="form-control">
+                                <option>Male</option>
+                                <option>Female</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+
+                </fieldset>
+            </form>
+        </div>
+        <div class="col-sm-3">
+            <img src="anonymous.png" width="120" height="150">
+            <p>
+                <button class="btn btn-default top-m-1">Change avatar</button>
+            </p>
+        </div>
+        <div class="col-sm-8">
+            <header><h2>Change password</h2></header>
+            <form name="changePassword" id="changePassword">
+
+
+                <div class="form-group row">
+                    <label for="password" class="col-xs-3 col-form-label">Password</label>
+                    <div class="col-xs-8">
+                        <input type="password" id="password" required class="form-control">
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <label for="repeatPassword" class="col-xs-3 col-form-label">Repeat password</label>
+                    <div class="col-xs-8">
+                        <input type="password" id="repeatPassword" required class="form-control">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-3 col-sm-6">
+                        <input class="btn btn-success" type="submit" value="Update password">
+                    </div>
+                </div>
+            </form>
+
+        </div>
+
+
+        <div class="col-sm-8">
+            <header><h2>Additional information</h2></header>
+            <form name="information">
+
+
+                <div class="form-group row">
+                    <label for="phone" class="col-xs-3 col-form-label">Phone number</label>
+                    <div class="col-xs-8">
+                        <input type="tel" id="phone" class="form-control"
+                               placeholder="0111-222-3333"
+                               pattern="^\d{4}-\d{3}-\d{4}$" required>
+                    </div>
+                </div>
+
+
+                <div class="form-group row">
+                    <label for="street" class="col-xs-3 col-form-label">Street address</label>
+                    <div class="col-xs-8">
+                        <input type="text" id="street" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="city" class="col-xs-3 col-form-label">City</label>
+                    <div class="col-xs-8">
+                        <input type="text" id="city" class="form-control">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="postCode" class="col-xs-3 col-form-label">Post code</label>
+                    <div class="col-xs-8">
+                        <input type="text" id="postCode" class="form-control" pattern="^\d{2}-\d{3}$" placeholder="00-000">
+                    </div>
+                </div>
+
+
+            </form>
+
+        </div>
+        <div class="col-md-8">
+            <div class="form-group">
+                <div class="col-sm-offset-3 col-sm-6 top-m-1">
+                    <input class="btn btn-primary col-md-4 button-box" form="information" type="submit" value="Save">
+                    <input class="btn btn-danger" name="information" value="Cancel">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+</body>
+</html>
