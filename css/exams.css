@@ -1,0 +1,23 @@
+th {
+    background: lightgray;
+
+}
+
+table {
+    border: 2px solid black;
+}
+
+table tr:nth-child(2n+1) {
+    background: #efefef;
+}
+li {
+    font-size: 16px;
+    font-weight:bold;
+    padding-bottom: 5px;
+}
+
+.top-m-2 {
+    margin-top: 20px;
+}
+
+
