@@ -1,0 +1,34 @@
+img {
+    width: 70%;
+    height: 70%;
+}
+
+.label-text {
+    font-size: 16px;
+    font-family: Arial, serif;
+}
+
+
+.inv {
+    display: none;
+}
+
+.vis {
+
+}
+
+
+
+.description {
+    font-size: 20px;
+    padding: 5px;
+    font-family: Arial, serif;
+}
+
+.top-m-1 {
+    margin-top: 10px;
+}
+
+#course0, #course1 {
+    display: none;
+}

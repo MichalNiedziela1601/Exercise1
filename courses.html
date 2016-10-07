@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Courses</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
+    <link rel="stylesheet" href="css/courses.css">
+
+
+    <script type="text/javascript">
+
+        function showHide(elem) {
+            if (elem.selectedIndex != 0) {
+                //hide the divs
+                for (var i = 0; i < divsO.length; i++) {
+                    divsO[i].style.display = 'none';
+                    console.log(divsO[i].style.display)
+                }
+                //unhide the selected div
+                document.getElementById(elem.value).style.display = 'block';
+            }
+        }
+
+        window.onload = function () {
+            //get the divs to show/hide
+            divsO = document.getElementById("section").getElementsByTagName('div');
+        }
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <header class="page-header"><h3>Courses</h3></header>
+    </div>
+
+    <div class="row col-md-12 ">
+        <div class="row col-md-8">
+            <div class="col-md-12 ">
+                <form>
+                    <div class="form-group row">
+                        <label class="col-xs-3 col-form-label label-text">Select a course</label>
+                        <div class="col-xs-4">
+                            <select id="course" class="form-control label-text" onchange="showHide(this)">
+                                <option value="">Select....</option>
+                                <option value="course0">Course A</option>
+                                <option value="course1">Course B</option>
+                            </select>
+                        </div>
+                        <div class="col-xs-offset-1 col-xs-2"><a href="" class="label-text">Syllabus</a></div>
+
+                    </div>
+                </form>
+
+
+            </div>
+            <div class="col-md-12 description">
+                <div id="section">
+                    <div id="course0">
+                        <header><h3>Course A</h3></header>
+                        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et
+                        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                        aliquip
+                        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
+                        dolore eu
+                        fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+                        deserunt mollit anim id est laborum."
+                    </div>
+                    <div id="course1">
+                        <header><h3>Course B</h3></header>
+                        "Next course"
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="row col-lg-offset-0 col-md-4">
+            <img src="anonymous.png" class="center-block">
+            <div class="top-m-1 ">
+                <button class="btn btn-primary center-block label-text">Subscribe to newsletter</button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+</body>
+</html>
