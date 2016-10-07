@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a32dbfd-38a8-4db7-9fec-375abe32381a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/exams.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/exams.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.html" afterPath="$PROJECT_DIR$/dashboard.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exams.css" afterPath="$PROJECT_DIR$/css/exams.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exams.html" afterPath="$PROJECT_DIR$/exams.html" />
     </list>
     <ignored path="Exercise1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exams.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="exams.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/exams.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+            <state relative-caret-position="288">
+              <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -71,18 +70,18 @@
       <file leaf-file-name="dashboard.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dashboard.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+            <state relative-caret-position="360">
+              <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exams.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="exams.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/exams.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -101,8 +100,8 @@
       <file leaf-file-name="schedule.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/schedule.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
+            <state relative-caret-position="18">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -261,11 +260,8 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.exams.html">
+  <component name="RunManager" selected="JavaScript Debug.dashboard.html">
     <configuration default="false" name="schedule.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise1/schedule.html">
-      <method />
-    </configuration>
-    <configuration default="false" name="professors.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise1/professors.html">
       <method />
     </configuration>
     <configuration default="false" name="edit-profile.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise1a/edit-profile.html">
@@ -275,6 +271,9 @@
       <method />
     </configuration>
     <configuration default="false" name="exams.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise1a/exams.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="dashboard.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Exercise1a/dashboard.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -332,18 +331,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.schedule.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.professors.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.edit-profile.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.courses.html" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.exams.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.edit-profile.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.courses.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.exams.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.dashboard.html" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.exams.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.courses.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.edit-profile.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.schedule.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.professors.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.dashboard.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.exams.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.courses.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.edit-profile.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.schedule.html" />
       </list>
     </recent_temporary>
   </component>
@@ -434,11 +433,18 @@
       <option name="project" value="LOCAL" />
       <updated>1475873666336</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feat_add_exams&#10;">
+      <created>1475875503631</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1475875503631</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47012000" />
+    <option name="totallyTimeSpent" value="47943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="1924" height="1065" extended-state="6" />
@@ -485,7 +491,8 @@
     <MESSAGE value="fix signin&#10;" />
     <MESSAGE value="feat_add_edit_profile&#10;" />
     <MESSAGE value="feat_add_courses&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat_add_courses&#10;" />
+    <MESSAGE value="feat_add_exams&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat_add_exams&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -890,6 +897,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/schedule.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="10" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1135">
@@ -898,34 +921,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/schedule.css">
+    <entry file="file://$PROJECT_DIR$/css/exams.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="19" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dashboard.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="26" column="22" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
+        <state relative-caret-position="360">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/exams.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/exams.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="288">
+          <caret line="25" column="14" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
           <folding />
         </state>
       </provider>
