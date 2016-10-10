@@ -1,13 +1,13 @@
 
-
-.signin {
+.signup-button {
     padding: 5px;
     float: right;
     position: relative;
     right: 30px;
-    margin-top: 10px;
 }
 
-
-
+.form-box {
+    padding-top: 15px;
+    margin-left: 15px;
+}
 
