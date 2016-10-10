@@ -1,0 +1,33 @@
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    font-size: 18px;
+}
+
+table tr,th,td {
+    border: 1px solid black;
+    padding: 1px 1px 1px 3px;
+}
+
+table th {
+    background: #d2cbc5;
+    text-align: left;
+}
+
+table tr:nth-child(2n+1) {
+    background: #e1e1e1;
+}
+
+
+.schedule-container {
+    width:50%;
+    padding: 10px 15px;
+    margin: 0 auto;
+    height:100%;
+}
+
+.days-box {
+    float: right;
+}
+
