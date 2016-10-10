@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard</title>
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/dashboard.css">
 </head>
 <body>
-<div class="dashboard-container">
-    <div class="dashboard-links">
+<div class="container dashboard-container">
+    <div class="row col-sm-4">
         <header><h1>Dashboard</h1></header>
-        <article>
-            <ul>
-                <li><a href="">Edit profile</a> </li>
+        <article class="">
+            <ul class="dashboard-links">
+                <li><a href="edit-profile.html">Edit profile</a> </li>
                 <li><a href="schedule.html">Schedule</a> </li>
-                <li><a href="">Courses</a> </li>
-                <li><a href="">Exams</a> </li>
+                <li><a href="courses.html">Courses</a> </li>
+                <li><a href="exams.html">Exams</a> </li>
                 <li><a href="professors.html">Professors</a> </li>
             </ul>
         </article>
     </div>
-    <div class="dashboard-profile">
+    <div class="row col-sm-offset-2 col-sm-6 dashboard-profile">
         <img src="image.jpeg">
         <p>Michal Niedziela</p>
         <p>michal.niedziela@labnoratory.com</p>
         <p>age: 30</p>
     </div>
+
+
 </div>
 </body>
 </html>

@@ -1,0 +1,20 @@
+header {
+    padding-bottom: 20px;
+}
+
+body {
+    padding-bottom: 10%;
+}
+
+.top-p-1 {
+    padding-top: 10px;
+}
+
+.top-m-1 {
+    margin-top: 10px;
+}
+
+.button-box {
+    margin-right: 20px;
+}
+
