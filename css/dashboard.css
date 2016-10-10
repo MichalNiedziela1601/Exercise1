@@ -7,10 +7,7 @@ a {
 
 .dashboard-container {
     background: #e8e0da;
-
-    width:40%;
     margin-top: 20px;
-
     height:100%;
     border:1px solid;
 }
@@ -22,7 +19,6 @@ a {
 }
 
 .dashboard-profile {
-
     font-size: 20px;
     padding-right: 10px;
     margin-right: 10px;
