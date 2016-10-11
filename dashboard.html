@@ -2,26 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" />
+
     <title>Dashboard</title>
     <link rel="stylesheet" href="dist/css/bootstrap.css">
-    <link rel="stylesheet" href="css/dashboard.css">
+    <link rel="stylesheet" href="css/dashboard.css" media="screen">
 </head>
 <body>
-<div class="container dashboard-container">
-    <div class="row col-sm-4">
-        <header><h1>Dashboard</h1></header>
-        <article class="">
-            <ul class="dashboard-links">
-                <li><a href="edit-profile.html">Edit profile</a> </li>
-                <li><a href="schedule.html">Schedule</a> </li>
-                <li><a href="courses.html">Courses</a> </li>
-                <li><a href="exams.html">Exams</a> </li>
-                <li><a href="professors.html">Professors</a> </li>
-            </ul>
+<div class="container">
+    <div class="visible-xs hidden-md col-xs-offset-2"></div>
+    <div class="row col-sm-4 col-xs-10 col-xs-offset-1">
+        <header class="text-center"><h1>Dashboard</h1></header>
+        <article>
+            
+                <a href="edit-profile.html"><button type="button" class="btn btn-block btn-default btn-group btn-group-lg" >Edit profile</button></a>
+                <a href="schedule.html"><button type="button" class="btn btn-default btn-block btn-group btn-group-lg" >Schedule</button></a>
+                <a href="courses.html"><button type="button" class="btn btn-default btn-block btn-group btn-group-lg" >Courses</button></a>
+                <a href="exams.html"><button type="button" class="btn btn-default btn-group-lg btn-block" >Exams</button></a>
+                <a href="professors.html"><button type="button" class="btn btn-default btn-group-lg btn-block" >Professors</button></a>
+
         </article>
     </div>
-    <div class="row col-sm-offset-2 col-sm-6 dashboard-profile">
-        <img src="image.jpeg">
+    <div class="row col-sm-offset-1 col-sm-6 col-xs-10 col-xs-offset-1 dashboard-profile">
+        <img src="image.jpeg" class="img-responsive dashboard-profile-img">
         <p>Michal Niedziela</p>
         <p>michal.niedziela@labnoratory.com</p>
         <p>age: 30</p>
