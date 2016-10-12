@@ -1,25 +1,49 @@
+@media only screen and (max-width: 768px){
+    .dashboard-links {
+        font-size: 2em;
+    }
+
+    .dashboard-profile  p{
+        font-size: 0.7em;
+    }
+
+    .dashboard-profile-img {
+        width: 70%;
+        height: auto;
+        margin:0 auto;
+    }
+}
 
 
 a {
-    text-decoration: none;
-    color: #000;
+text-decoration: none;
+color: #000;
+}
+
+.back-well{
+background-color: navajowhite;
+}
+
+.back-well1{
+background-color: #2aabd2;
 }
 
 .dashboard-container {
-    background: #e8e0da;
-    margin-top: 20px;
-    height:100%;
-    border:1px solid;
+background: #e8e0da;
+margin-top: 20px;
+height:100%;
+border:1px solid;
 }
 
 .dashboard-links {
-    float: left;
-    font-size: 24px;
-    padding: 5px;
+float: left;
+font-size: 24px;
+padding: 5px;
 }
 
+
 .dashboard-profile {
-    font-size: 20px;
+    font-size: 2em;
     padding-right: 10px;
     margin-right: 10px;
 }

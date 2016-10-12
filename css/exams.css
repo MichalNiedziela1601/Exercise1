@@ -2,6 +2,10 @@ th {
     background: lightgray;
 }
 
+body{
+    background: url(../assets/back1.png) repeat;
+}
+
 .table table tr,th,td {
     border: 1px solid black !important;
     padding: 1px 1px 1px 3px;
