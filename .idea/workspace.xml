@@ -3,20 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0a32dbfd-38a8-4db7-9fec-375abe32381a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/courses.html" afterPath="$PROJECT_DIR$/courses.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/courses.css" afterPath="$PROJECT_DIR$/css/courses.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/dashboard.css" afterPath="$PROJECT_DIR$/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/edit-profile.css" afterPath="$PROJECT_DIR$/css/edit-profile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/exams.css" afterPath="$PROJECT_DIR$/css/exams.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/professors.css" afterPath="$PROJECT_DIR$/css/professors.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/schedule.css" afterPath="$PROJECT_DIR$/css/schedule.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dashboard.html" afterPath="$PROJECT_DIR$/dashboard.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/edit-profile.html" afterPath="$PROJECT_DIR$/edit-profile.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/exams.html" afterPath="$PROJECT_DIR$/exams.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/professors.html" afterPath="$PROJECT_DIR$/professors.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/schedule.html" afterPath="$PROJECT_DIR$/schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signin.html" afterPath="$PROJECT_DIR$/signin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/signup.html" afterPath="$PROJECT_DIR$/signup.html" />
     </list>
     <ignored path="Exercise1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -421,7 +407,7 @@
       <workItem from="1476128859156" duration="645000" />
       <workItem from="1476203620254" duration="16096000" />
       <workItem from="1476291994675" duration="13862000" />
-      <workItem from="1476377683387" duration="10178000" />
+      <workItem from="1476377683387" duration="10272000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1475687967263</created>
@@ -451,11 +437,18 @@
       <option name="project" value="LOCAL" />
       <updated>1476303456676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add navbar and footer">
+      <created>1476388976700</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1476388976700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46189000" />
+    <option name="totallyTimeSpent" value="46283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2" y="-2" width="1924" height="1065" extended-state="6" />
@@ -494,7 +487,8 @@
     <MESSAGE value="initial" />
     <MESSAGE value="fix dashboard and edit-profile" />
     <MESSAGE value="fix all" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix all" />
+    <MESSAGE value="add navbar and footer" />
+    <option name="LAST_COMMIT_MESSAGE" value="add navbar and footer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
