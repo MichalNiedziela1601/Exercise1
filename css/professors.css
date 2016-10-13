@@ -12,3 +12,13 @@
     margin-top: 20px;
 }
 
+.navbar {
+    min-height: 70px !important;
+}
+
+.navbar ul{
+    margin-top: 8px;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }

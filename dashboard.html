@@ -9,8 +9,41 @@
     <link rel="stylesheet" href="css/dashboard.css" media="screen">
 </head>
 <body>
-<div class="container">
-    <div class="visible-xs hidden-md col-xs-offset-2"></div>
+<nav class="navbar navbar-default ">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="dashboard.html"><img src="assets/image.jpeg" style="max-width: 50px; margin-top: -7px;"></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav">
+                <li><a href="edit-profile.html" class="grow">Edit profile <span class="sr-only">(current)</span></a></li>
+                <li><a href="schedule.html" class="grow">Schedule</a></li>
+                <li><a href="courses.html" class="grow">Courses</a></li>
+                <li><a href="exams.html" class="grow">Exams</a></li>
+                <li><a href="professors.html" class="grow">Professors</a></li>
+
+            </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><button type="button" class="btn btn-warning">Sign out</button> </a></li>
+
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+<div class="container" style="background: #f8f8f8; padding-bottom: 40px">
+    <div class="row center-block">
+        <h1 class="text-center text-capitalize">Akademia programowania - exercise 1 + 2</h1>
+    </div>
     <div class="row col-sm-4 col-xs-10 col-xs-offset-1">
         <header class="text-center"><h1>Dashboard</h1></header>
         <article>

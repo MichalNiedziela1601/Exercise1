@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
     <title>Courses</title>
     <link rel="stylesheet" href="dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/courses.css">
@@ -22,28 +23,69 @@
 </head>
 <body>
 
-<div class="container">
-    <div class="row">
+
+    <nav class="navbar navbar-default ">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="dashboard.html"><img src="assets/image.jpeg"
+                                                                   style="max-width: 50px; margin-top: -7px;"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="edit-profile.html" class="grow">Edit profile <span class="sr-only">(current)</span></a></li>
+                    <li><a href="schedule.html" class="grow">Schedule</a></li>
+                    <li class="active"><a href="courses.html" class="grow">Courses</a></li>
+                    <li><a href="exams.html" class="grow">Exams</a></li>
+                    <li><a href="professors.html" class="grow">Professors</a></li>
+
+                </ul>
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="signin.html">
+                        <button type="button" class="btn btn-warning">Sign out</button>
+                    </a></li>
+
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+
+<div class="container" style="background: #f8f8f8; padding-bottom: 40px">
+    <div class="row center-block">
+        <h1 class="text-center text-capitalize">Akademia programowania - exercise 1 + 2</h1>
+    </div>
+    <div class="row col-xs-offset-1 col-xs-10">
         <header class="page-header"><h3>Courses</h3></header>
     </div>
-    <div class="row col-md-12 ">
+    <div class="row col-md-12 col-xs-10 col-xs-offset-1 col-md-offset-0">
         <div class="col-md-8">
-            <div class="col-md-12 ">
+            <div class="col-md-11 col-md-offset-1 ">
                 <form>
                     <div class="form-group row">
-                        <label class="col-xs-3 col-sm-4 col-form-label label-text">Select a course</label>
-                        <div class="col-xs-4">
+                        <label class="col-xs-12 col-sm-4 col-md-6col-form-label label-text">Select a course</label>
+                        <div class="col-xs-8 col-sm-6">
                             <select id="course" class="form-control label-text" onchange="showHide(this)">
                                 <option value="courseSelect">Select....</option>
                                 <option value="course0">Course A</option>
                                 <option value="course1">Course B</option>
                             </select>
                         </div>
-                        <div class="col-xs-offset-1 col-xs-2"><a href="" class="label-text">Syllabus</a></div>
+                        <div class="col-xs-6 col-sm-4 col-md-2"><a href="" class="label-text">Syllabus</a></div>
                     </div>
                 </form>
             </div>
-            <div class="col-md-12 description">
+            <div class="col-xs-12 col-md-11 col-md-offset-1 description">
                 <div id="section">
                     <div id="courseSelect">
                         Please select course
@@ -67,14 +109,19 @@
             </div>
 
         </div>
-        <div class="row col-lg-offset-0 col-md-4 col-sm-8 col-xs-5">
-            <img src="assets/anonymous.png" class="center-block">
+        <div class="row col-lg-offset-0 col-md-4 col-sm-8 col-xs-5 subscribe">
+            <img src="assets/anonymous.png" class="center-block ">
             <div class="top-m-1 ">
                 <button class="btn btn-primary center-block label-text">Subscribe to newsletter</button>
             </div>
         </div>
     </div>
 </div>
-
+<div class="container" style="background: #f8f8f8; padding-bottom: 20px">
+    <div class="row top-m-1">
+        <div style="padding-top: 10px; margin-left: 3%; margin-top:10px;">© 2016 Labnoratory Academy Ltd.
+        </div>
+    </div>
+</div>
 </body>
 </html>
